@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+}
+.box { 
+
+   
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   width: calc(29.9vh - 3.4px);
+   height: 25vh;
+   text-decoration: none;
+   /* font-family:  'Josefin Sans', sans-serif; */
+   font-weight: 300;
+   font-size: 20px;
+   /* border: 1px solid black; */
+   /* margin: 1px; */
+   color: white;
+   -webkit-text-stroke: 0.5px white;
+   transition: opacity 2s ease-in;
+   flex-basis:  14.1%;
+   font-family: 'Major Mono Display', monospace;
+}
+@keyframes fadeIn{
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+.box1 {
+    background-color:   rgb(255, 0, 179);
+    animation: fadeIn ease 5s;
+    
+    
+}
+.logo{
+    width: 95px;
+}
+
+.box2 {
+    background-color: #26BFBF;
+    animation: fadeIn ease 3s;
+}
+
+.box3 {
+    background-color: #EDF2C2;
+    animation: fadeIn ease 1s;
+}
+.box4{ 
+    background-color:  rgb(136, 62, 206);
+    animation: fadeIn ease 7s;
+  
+}
+.box4:hover{
+    color: rgb(173, 173, 173);
+    font-size: 40px;
+    transition: 500ms;
+}
+.box5 {
+    background-color: #FF8A47;
+    animation: fadeIn ease 4s;
+}
+.box6 {
+    background-color:#26BFBF;
+    animation: fadeIn ease 2s;      
+    
+}
+.box7 {
+    background-color: #627E8F;
+    animation: fadeIn ease 5s;
+    
+    
+}
+/* .triangel{
+    width: 50px;
+} */
+.logo:hover{
+    content: url(../assets/tri2.svg);
+    animation: fadeIn ease 2s;
+    width: 50px;
+    
+}
+.box8 {
+    background-color:#F28972;
+    animation: fadeIn ease 7s;
+   
+}
+.box9 {
+    background-color: rgb(255, 230, 0);
+    animation: fadeIn ease 3s;
+   
+}
+.box10 {
+    background-color: #4799FC;
+    animation: fadeIn ease 1s;
+   
+}
+.box11 {
+    background-color:#97A676;
+    animation: fadeIn ease 5s;
+   
+}
+.box12 {
+    background-color: #8CEEEE;
+    animation: fadeIn ease 2s;
+   
+}
+.box13 {
+    background-color: rgb(223, 39, 57);
+    animation: fadeIn ease 4s;
+   
+}
+.box13:hover{
+    color: rgb(173, 173, 173);
+    font-size: 40px;
+    transition: 500ms;
+}
+.box14 {
+    background-color:#77E3C4;
+    animation: fadeIn ease 6s;
+   
+}
+.box15 {
+    background-color:rgb(36, 143, 230);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box16 {
+    background-color: rgb(131, 36, 48);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box17 {
+    background-color:#26BFBF;
+    animation: fadeIn ease 3s;
+   
+}
+.box17:hover{
+    color: rgb(173, 173, 173);
+    font-size: 40px;
+    transition: 500ms;
+}
+.box18 {
+    background-color: rgb(223, 39, 57);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box19{
+    background-color: rgb(97, 171, 255);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box20 {
+    background-color: rgb(194, 255, 97);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box21 {
+    background-color: rgb(255, 231, 97);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box22 {
+    background-color: rgb(230, 82, 36);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box22:hover{
+    color: rgb(173, 173, 173);
+    font-size: 25px;
+    transition: 500ms;
+
+}
+
+.box23 {
+    background-color: rgb(27, 201, 114);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box24 {
+    background-color: #FF6175;
+    animation: fadeIn ease 3s;
+   
+}
+
+.box25 {
+    background-color: rgb(34, 143, 34);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box26 {
+    background-color: rgb(91, 34, 248);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box27 {
+    background-color: rgb(197, 76, 29);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box28 {
+    background-color:rgb(76, 172, 216);
+    animation: fadeIn ease 3s;
+   
+}
+
+.box13:hover{
+    color: rgb(173, 173, 173);
+    font-size: 40px;
+    transition: 500ms;
+
