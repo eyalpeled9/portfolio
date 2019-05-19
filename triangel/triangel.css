@@ -1,6 +1,12 @@
+
 *{
     margin: 0;
     box-sizing: border-box;
+}
+
+.check {
+  flex-direction: column;
+  align-items: center;
 }
 
 html, body {
@@ -27,7 +33,7 @@ html, body {
   }
   
   /* Hide the images by default */
-  .mySlides {
+  .my-slides {
     display: none;
   }
   
@@ -75,34 +81,20 @@ html, body {
 
 /*  tryyyyyyyyyyyyyyyyyyyyyyyyyyy */
 
-  .text2 {
-    color: #0e688b;
-    font-size: 20px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 50%;
-    width: 100%;
-    right: -85%;
-    top: 20%;
-    text-align: center;
-    text-transform: capitalize;
-    text-align: left;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  }
+  
 
   .text {
+    position: absolute;
+    right: -182px;
     transition: opacity 0.6s ease-in;
     color: #0e688b;
     font-size: 15px;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 50%;
-    width: 100%;
-    right: -85%;
-    top: 22%;
+
+    bottom: 0;
     text-align: center;
     text-transform: capitalize;
     text-align: left;
+    display: inline-block;
   }
   
   
@@ -116,10 +108,12 @@ html, body {
     margin: 80px 50px;
     position: fixed;
     top: 0;
+    left: 0;
     font-family: serif;
     font-weight: bold;
     padding: 5px;
   }
+
   
   /* The dots/bullets/indicators */
   .dot {
@@ -165,8 +159,15 @@ html, body {
     to {opacity: 1}
   }
 
-
-.navbar{
+.topbar{
+  
+  width: 100%;
+  background-color: rgb(255, 230, 0);
+  height: 10px;
+  display: block;
+  
+}
+.navbar {
     position: fixed;
     top:0;
     width: 100%;
@@ -202,8 +203,21 @@ html, body {
    
 }
 
-.home{
+.image-text-container {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 66.66%;
+}
+
+.image-text-container img {
+  width: 100%;
+}
+
+.nav-link{
     text-decoration: none;
+    width: 100%;
     color: black;
 }
 
@@ -233,7 +247,7 @@ html, body {
 .container2 {
     position: absolute;
     z-index: -1;
-    top:0;
+    top:5vh;
     left:0;
     display: flex;
     flex-direction: column;
@@ -242,36 +256,137 @@ html, body {
     
     
     
-}
-.test {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto; 
-    width: 66.66%;
-    margin-top: 5vh;
-    
-    
-    
     
 }
 
-.x1{
+.arrow1{
+  opacity: 0;
+  position: absolute;
+  width: 10%;
+  height: 10%;
+  top: 14%;
+  right: 55%;
+ transition: opacity 1s ease-in;
+
+} 
+
+
+
+.test {
+    display: flex;
+    /* margin-left: auto; */
+    /* margin-right: auto;  */
+    width: 66.8%;    
+}
+/* 
+.test.margin {
+  margin-top: 5vh;
+} */
+
+.wx1{
    
-    
+  
    
     
    
 }
-.x2 {
+.wx2 {
     
      
     
    
 }
-.x3 {
+.wx3 {
    
    
     
 
    
+}
+
+.phone{
+  display: none;
+}
+
+
+
+
+
+
+
+
+/* small screen res */
+
+
+
+
+
+
+
+
+@media screen and (max-width: 420px){
+
+
+
+  .text{
+  display: none;
+}
+
+.test2{
+  /* display: none; */
+}
+
+.test4{
+  display: none;
+}
+
+.test5{
+  display: none;
+}
+
+.test6{
+  display: none;
+}
+
+.dot{
+  display: none;
+}
+
+.numbertext{
+  display: none;
+}
+
+
+.slideshow-container {
+  display: none;
+}
+
+.container2{
+  display: none;
+}
+
+
+.prev, .next{
+  display: none;
+}
+
+
+
+
+/* carousel */
+
+
+
+
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 300px;
 }

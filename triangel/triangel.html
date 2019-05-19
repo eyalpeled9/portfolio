@@ -3,19 +3,24 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>EYAL PELED</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="triangel.css">
+    <link rel="stylesheet" href="../node_modules/swiper/dist/css/swiper.min.css">
     <link href="https://fonts.googleapis.com/css?family=Major+Mono+Display" rel="stylesheet">
+   
+
+
 </head>
 <body>
     <div class="navbar">
-           <div class="box box1"><a class="home" href="../portflio.html">Home</a></div>
-           <div class="box box2"><a href="#graphic"></a>Furniture</div>
-           <div class="box box3"><a href="#furniter"></a>Grapic</div>
-            <div class="box box4"><a href="#about"></a>About</div>
-            <div class="box box5"><a href="#facebook"></a>Facebook</div>
-            <div class="box box6"><a href="#app"></a>App</div>
+        <div class="topbar"></div>
+           <div class="box box1"><a class="nav-link" href="../index.html">Home</a></div>
+           <div class="box box2"><a class="nav-link" href="#graphic">Furniture</a></div>
+           <div class="box box3"><a class="nav-link" href="#furniter">Grapic</a></div>
+            <div class="box box4"><a class="nav-link" href="#about">About</a></div>
+            <div class="box box5"><a class="nav-link" href="#facebook">Facebook</a></div>
+            <div class="box box6"><a class="nav-link" href="#app">App</a></div>
     </div>
 
 
@@ -24,34 +29,61 @@
         <div class="container2">
 
 <!-- homepage+ furniture -->
-            <div class="mySlides fade">
+            <div class="my-slides fade">
                 <div class="numbertext">1 / 3</div>
-                <img class="test test2" src="../triangel/assets/x1.jpg" alt="test2"></div>
+               
+                
+
+                <img class="test test2 margin" src="../triangel/assets/w1.jpg" alt="test2">
+                <div class="image-text-container">
+                    <img class="test test2" src="../triangel/assets/w2.jpg" alt="test2">
+                    <div class="text">
+                        <span style="font-size:20px;font-family: sans-serif">hello</span>
+                        <br> Three is simply dummy<br> text of the printing<br> and typesetting industry. 
+                        <br> Lorem Ipsum has been <br>the industry's standard<br> dummy text ever <br>since the 1500s, 
+                    </div>
+                    <div class="arrow1">
+                            <img class="arrow" src="../triangel/assets/arrow.svg" alt="arrow1">
+                    </div>
+                </div>
+                <img class="test test2" src="../triangel/assets/w3.jpg" alt="test2">
+                <img class="test test2" src="../triangel/assets/w4.jpg" alt="test2">
+
+                
+                
+                
+       
+               
+                <!-- <img class="arrow2" src="../triangel/assets/arrow.svg" alt="arrow2"></div> -->
 
           
-
-
-                <div class="text2">Caption Three</div>
-                <div class="text"> is simply dummy<br> text of the printing<br> and typesetting industry. 
-                   <br> Lorem Ipsum has been <br>the industry's standard<br> dummy text ever <br>since the 1500s, </div>
+                
+                
                    
             <!-- <img class="test test3" src="../triangel/assets/test3.jpg" alt="test3"></div> -->
                 
             </div>
-
+            
 <!-- branding -->
-                        <div class="mySlides fade">
+                        <div class="my-slides fade">
                             <div class="numbertext">2 / 3</div>  
-                            <img class="test test6" src="../triangel/assets/x2.jpg" alt="test6"></div>
-            <!-- <img class="test test4" src="../triangel/assets/test4.jpg" alt="test4"></div> -->
+                           
+                            
+                            <img class="test test6" src="../triangel/assets/wx2.jpg" alt="test6"></div>
+
+                            
+
                         </div> 
 
 
 <!-- creation -->
 
-                        <div class="mySlides fade">
+                        <div class="my-slides fade">
                                 <div class="numbertext">3 / 3</div>  
-                                <img class="test test5" src="../triangel/assets/x3.jpg" alt="test5"></div>
+                                <img class="test test5" src="../triangel/assets/wx3.jpg" alt="test5"></div>
+
+                               
+
                         </div>
 
 
@@ -78,7 +110,75 @@
                     
                 </div>
             </div>
+            
     </div>
+
+
+
+
+
+
+    <!-- iphone -->
+
+   
+ 
+
+    <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"> <img class="test test2 margin" src="../triangel/assets/w1.jpg" alt="test2">
+                    <div class="image-text-container">
+                        <img class="test test2" src="../triangel/assets/w2.jpg" alt="test2">
+                        <div class="text">
+                            <span style="font-size:20px;font-family: sans-serif">hello</span>
+                            <br> Three is simply dummy<br> text of the printing<br> and typesetting industry. 
+                            <br> Lorem Ipsum has been <br>the industry's standard<br> dummy text ever <br>since the 1500s, 
+                        </div>
+                        <div class="arrow1">
+                                <img class="arrow" src="../triangel/assets/arrow.svg" alt="arrow1">
+                        </div>
+                    </div>
+                    <img class="test test2" src="../triangel/assets/w3.jpg" alt="test2">
+                    <img class="test test2" src="../triangel/assets/w4.jpg" alt="test2"></div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <!-- <img class="phone phone1" src="../triangel/assets/p1.jpg" alt="phone1"></div>
+
+
+    <img class="phone phone2" src="../triangel/assets/p2.jpg" alt="phone2"></div> 
+
+
+    <img class="phone phone3" src="../triangel/assets/p3.jpg" alt="phone3"></div> -->
+    
+    
+
+
+
+    
+
+
+
+
+    
 </body>
+<script src="../node_modules/swiper/dist/js/swiper.min.js"></script>
 <script src="triangel.js"></script>
+
+
+
+
 </html>

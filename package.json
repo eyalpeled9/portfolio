@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "swiper": "^4.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyalpeled9/portfolio.git"
+  },
+  "author": "Eyal Peled",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eyalpeled9/portfolio/issues"
+  },
+  "homepage": "https://github.com/eyalpeled9/portfolio#readme"
+}
